@@ -32,4 +32,10 @@ Day#10: CALCULATOR
 Day#11: BLACKJACK
        https://replit.com/@Hiten1708/blackjack-start#main.py
        
-Day#12: DEBUGGING       
+Day#12: NUMBER GUESSING GAME      
+
+Day#13: DEBUGGING
+
+Day#14: HIGHER LOWER GAME
+
+Day#15: COFFEE MAKER
