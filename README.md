@@ -1,4 +1,4 @@
-Hey! Thanks for checking out my Github. This repository is made just to show and track my progress of "100 Days of code"
+# 100 Days of Code - The Complete Python Pro Bootcamp for 2021 by Dr. Angela
 
 Day#1: BAND NAME GENERATOR
 
