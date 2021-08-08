@@ -32,8 +32,6 @@ https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freebor
 
 ## Day#11: BLACKJACK
 
-https://replit.com/@Hiten1708/blackjack-start#main.py
-
 ## Day#12: NUMBER GUESSING GAME
 
 ## Day#13: DEBUGGING
