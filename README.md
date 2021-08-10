@@ -1,30 +1,30 @@
 # 100 Days of Code - The Complete Python Pro Bootcamp for 2021 by Dr. Angela
 
-### Day#1: BAND NAME GENERATOR
+### Day#01: BAND NAME GENERATOR
 
-### Day#2: TIP CALCULATOR
+### Day#02: TIP CALCULATOR
 
-### Day#3a: TRUE LOVE CALCULATOR
+### Day#03a: TRUE LOVE CALCULATOR
 
-### Day#3b: TREASURE ISLAND
+### Day#03b: TREASURE ISLAND
 
-### Day#4a: HEADS OR TAILS
+### Day#04a: HEADS OR TAILS
 
-### Day#4b: TREASURE MAP
+### Day#04b: TREASURE MAP
 
-### Day#4c: ROCK, PAPER AND SCISSORS
+### Day#04c: ROCK, PAPER AND SCISSORS
 
-### Day#5: PASSWORD GENERATOR
+### Day#05: PASSWORD GENERATOR
 
-### Day#6: REEBORG'S ROBOT - [Solution](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+### Day#06: REEBORG'S ROBOT - [Solution](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
 
-### Day#7: HANGMAN
+### Day#07: HANGMAN
 
-### Day#8a: PRIME NUMBER IDENTIFIER
+### Day#08a: PRIME NUMBER IDENTIFIER
 
-### Day#8b: CEASER CIPHAR
+### Day#08b: CEASER CIPHAR
 
-### Day#9: BLIND AUCTION
+### Day#09: BLIND AUCTION
 
 ### Day#10: CALCULATOR
 
