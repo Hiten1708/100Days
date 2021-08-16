@@ -2,7 +2,7 @@
   font-family: "Amatic SC", cursive;
   color: #0c4271;
   font-size: 40px;
-  padding: 20px;
+  padding: 10px;
 }
 
 body {
@@ -13,10 +13,11 @@ body {
 }
 
 hr {
-  margin: 10px auto;
+  margin: 23px auto 10px;
   width: 10%;
   border-style: none;
   border-top: dotted;
+  border-width: 8px;
   color: #000000;
 }
 
@@ -36,8 +37,18 @@ h1 {
   font-size: 90px;
 }
 
+h2 {
+  font-size: 70px;
+}
+
 a {
   color: #0a81ab;
+}
+
+.skill-row {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
 }
 
 .bottom_cloud {
@@ -57,5 +68,50 @@ a {
 }
 
 .pfp {
-  padding: 20px;
+  padding-top: 100px;
+}
+
+.comp1 {
+  width: 25%;
+  float: left;
+  padding: 30px;
+}
+
+.comp2 {
+  width: 25%;
+  float: right;
+  padding: 30px;
+}
+
+.profile {
+  background-color: #fdf5ca;
+  border-radius: 25px;
+}
+.skills {
+  background-color: #fdf5ca;
+  border-radius: 25px;
+}
+
+.contact-me {
+  background-color: #e5fbb8;
+  border-radius: 25px;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  background-color: #f2bb7b;
+  border-radius: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #ffdfaf;
+  border-radius: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  background-color: #ffdfaf;
+  border-radius: 15px;
 }
