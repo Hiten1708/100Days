@@ -1,14 +1,43 @@
 * {
-  margin: 0;
   font-family: "Amatic SC", cursive;
   color: #0c4271;
+  font-size: 40px;
+  padding: 20px;
 }
 
-.intro {
+body {
   background-color: #f9dfdc;
   position: relative;
   text-align: center;
   padding-top: 100px;
+}
+
+hr {
+  margin: 10px auto;
+  width: 10%;
+  border-style: none;
+  border-top: dotted;
+  color: #000000;
+}
+
+h1 h3 {
+  position: absolute;
+  width: 30%;
+  padding-top: 200px;
+  line-height: 2;
+}
+
+u {
+  padding: 0px;
+}
+
+h1 {
+  font-family: "WindSong", cursive;
+  font-size: 90px;
+}
+
+a {
+  color: #0a81ab;
 }
 
 .bottom_cloud {
@@ -19,28 +48,14 @@
 .top_cloud {
   position: absolute;
   left: 70%;
-  top: 5%;
-}
-
-h1 h3 {
-  position: absolute;
-  width: 30%;
-  padding-top: 200px;
-}
-
-h1 {
-  font-family: "WindSong", cursive;
-  font-size: 50px;
+  top: 0%;
 }
 
 .mountain {
   position: absolute;
+  bottom: 0%;
 }
 
-hr {
-  margin: 10px auto;
-  width: 10%;
-  border-style: none;
-  border-top: dotted;
-  color: #0a81ab;
+.pfp {
+  padding: 20px;
 }
