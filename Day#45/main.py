@@ -1,14 +1,18 @@
-from bs4 import BeautifulSoup
 import requests
-import lxml
+from bs4 import BeautifulSoup
 
-website = requests.get(
-    "https://www.empireonline.com/movies/features/best-movies-2/")
-content = website.text
-soup = BeautifulSoup(content, "lxml")
+URL = "https://www.empireonline.com/movies/features/best-movies-2/"
 
-# top_lists = soup.select(selector="div h3")
+response = requests.get(URL)
+website_html = response.text
 
-print(soup.div)
+soup = BeautifulSoup(website_html, "html.parser")
 
-# __next > main > article > div.jsx-2601023975.article-content > div.jsx-3821216435.block-item.listicle-container > div:nth-child(1) > h3
+all_movies = soup.find_all(name="h3", class_="title")
+
+movie_titles = [movie.getText() for movie in all_movies]
+movies = movie_titles[::-1]
+
+with open("movies.txt", mode="w") as file:
+    for movie in movies:
+        file.write(f"{movie}\n")
