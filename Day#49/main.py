@@ -13,9 +13,9 @@ signIn.click()
 
 time.sleep(1)
 email_input = driver.find_element_by_id("username")
-email_input.send_keys("patelhiten1409@gmail.com")
+email_input.send_keys("")
 pas_input = driver.find_element_by_id("password")
-pas_input.send_keys("h1t3npatel")
+pas_input.send_keys("")
 pas_input.send_keys(Keys.ENTER)
 
 
