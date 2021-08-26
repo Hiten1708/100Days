@@ -26,6 +26,10 @@ nav {
   font-family: "Ubuntu", sans-serif;
 }
 
+i {
+  padding: 1%;
+}
+
 #title {
   background-color: #ff4c68;
   height: 10%;
@@ -33,9 +37,11 @@ nav {
 
 #features {
   background-color: white;
-  margin: 10%;
+  padding: 10%;
   text-align: center;
   font-size: 1.5rem;
+  position: relative;
+  z-index: 2;
 }
 
 #left {
@@ -54,6 +60,29 @@ nav {
   padding: 5%;
 }
 
+#pricing {
+  padding: 5% 20%;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+
+#cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  color: white;
+}
+
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 5%;
+}
+
 .icon {
   color: #ef8172;
   font-size: 3rem;
@@ -66,10 +95,9 @@ nav {
 
 .rotate30 {
   transform: rotate(25deg);
-  position: relative;
+  position: absolute;
   width: 60%;
   top: 10%;
-  left: 20%;
 }
 
 .navbar-brand {
@@ -97,4 +125,19 @@ nav {
 
 .news-pics {
   padding: 2%;
+}
+
+.price-card {
+  padding: 3% 1%;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+
+  .rotate30 {
+    position: static;
+    transform: rotate(0);
+  }
 }
