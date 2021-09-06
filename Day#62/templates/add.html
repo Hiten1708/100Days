@@ -1,0 +1,115 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}Add A New Cafe{% endblock %}
+
+{% block styles %}
+{{super()}}
+<link rel="stylesheet"
+      href="{{url_for('static', filename='css/styles.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8">
+
+      <h1>Add a new cafe into the database</h1>
+
+        <form method="POST" action="{{ url_for('add_cafe') }}">
+            {{ form.csrf_token }}
+
+            <div class="form-group">
+                {{ form.cafe.label }}<br>
+                {{ form.cafe(class_='form-control') }}
+                  {% if form.cafe.errors %}
+                    <ul class=errors>
+                    {% for error in form.cafe.errors %}
+                      <li>{{ error(class_='form-control') }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+            </div>
+            <br>
+            <div class="form-group">
+                {{ form.location.label }}<br>
+                {{ form.location(class_='form-control') }}
+                  {% if form.location.errors %}
+                    <ul class=errors>
+                    {% for error in form.location.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            <div class="form-group">
+                {{ form.open_.label }}<br>
+                {{ form.open_(class_='form-control') }}
+                  {% if form.open_.errors %}
+                    <ul class=errors>
+                    {% for error in form.open_.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            <div class="form-group">
+                {{ form.close.label }}<br>
+                {{ form.close(class_='form-control') }}
+                  {% if form.close.errors %}
+                    <ul class=errors>
+                    {% for error in form.close.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            <div class="form-group">
+                {{ form.coffee.label }}<br>
+                {{ form.coffee(class_='form-control') }}
+                  {% if form.coffee.errors %}
+                    <ul class=errors>
+                    {% for error in form.coffee.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            <div class="form-group">
+                {{ form.wifi.label }}<br>
+                {{ form.wifi(class_='form-control') }}
+                  {% if form.wifi.errors %}
+                    <ul class=errors>
+                    {% for error in form.wifi.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            <div class="form-group">
+                {{ form.power.label }}<br>
+                {{ form.power(class_='form-control') }}
+                  {% if form.power.errors %}
+                    <ul class=errors>
+                    {% for error in form.power.errors %}
+                      <li>{{ error }}</li>
+                    {% endfor %}
+                    </ul>
+                  {% endif %}
+                </div>
+            <br>
+            {{ form.submit(class_='btn btn-primary') }}
+
+
+        </form>
+	  <p class="space-above"><a href="{{ url_for('cafes') }}">See all cafes</a></p>
+
+    </div>
+  </div>
+</div>
+
+{% endblock %}
