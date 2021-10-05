@@ -17,8 +17,8 @@ for title in titles:
 song_uri = []
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="a5dce40714d34732a0ffd0901ea5ae06",
-                                               client_secret="31880cf36b9143f4820d09ac2d8fead1",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="",
+                                               client_secret="",
                                                redirect_uri="https://example.com/callback/",
                                                scope="playlist-modify-private",
                                                show_dialog=True,
