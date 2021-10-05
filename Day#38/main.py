@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime
 
-APP_ID = "5a1a9ff5"
-APP_KEY = "33fb5b9c78053384bc10fae7e3ec9d72"
+APP_ID = ""
+APP_KEY = ""
 ex_ep = "https://trackapi.nutritionix.com/v2/natural/exercise"
 sp_url = "https://api.sheety.co/b9b0db9f88960288df01fbbdd6125b4e/myWorkouts/workouts"
 today_date = datetime.now().strftime("%d/%m/%Y")
@@ -23,7 +23,7 @@ para = {
 }
 
 head1 = {
-    "Authorization": "Bearer dajdhfkjahgkljshkgjhsdlkhgkskjkajkdjfgakjhgkjhsdlkjglksb"
+    "Authorization": ""
 }
 
 response = requests.post(url=ex_ep, json=para, headers=head)
