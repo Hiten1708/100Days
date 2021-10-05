@@ -6,7 +6,7 @@ from datetime import datetime
 
 class FlightSearch:
     def __init__(self, to_city, budget, from_city_code="LON"):
-        self.KIWI_API = "XXSgtmDboIj5ko8DJnaoH_u2BIbeligW"
+        self.KIWI_API = ""
         self.KIWI_END = "http://tequila-api.kiwi.com/v2/search"
         self.KIWI_HEAD = {
             'apikey': self.KIWI_API
