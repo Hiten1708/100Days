@@ -6,8 +6,8 @@ import time
 PROMISED_DOWN = 150
 PROMISED_UP = 10
 CHROME_DRIVER_PATH = "/Users/hitenpatel/Driver/chromedriver"
-INSTA_EMAIL = "patelhiten1409@gmail.com"
-INSTA_PASS = "h1t3npatel"
+INSTA_EMAIL = ""
+INSTA_PASS = ""
 SIMILAR_ACCOUNT = "chefsteps"
 ins_site = "https://www.instagram.com/accounts/login/"
 NUMBER_OF_SCROLLS = 5
