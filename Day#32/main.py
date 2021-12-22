@@ -6,8 +6,8 @@ import random
 from os import listdir
 
 files = listdir("letter_templates")
-mail = "ranarajput1409@gmail.com"
-pswd = "H1t3np@tel"
+mail = ""
+pswd = ""
 
 # 1. Update the birthdays.csv
 
